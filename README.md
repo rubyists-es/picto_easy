@@ -1,7 +1,7 @@
 # picto_easy
 Pequeño projecto para el grupo de Telegram de Ruby.
 
-# Cómo colaborar en 7 pasos semi-fáciles.
+## Cómo colaborar en 7 pasos semi-fáciles.
 1. Haz fork de este repositorio en GitHub.
 2. Clona tu fork del repositorio a tu computadora
    por HTTP corriendo 
@@ -28,3 +28,8 @@ Pequeño projecto para el grupo de Telegram de Ruby.
    Este es tu Pull Request. Escribe un resumen de los cambios que tiene tu branch, así como cualquier información
    importante que quieras comunicar a quien lo vaya a revisar para aceptarlo.
 7. ¡Espera los aplausos!
+
+## A tener en cuenta al momento de desarrollar.
+* Todo lo que vaya dentro de los archivos de código (.rb) incluidos nombres de clases, métodos, variables, módulos, etc. deben estar escritos en inglés, así como los nombres de esos archivos.
+* Pueden escribirse en español mensajes de commit, nombres de branches, contribuciones a este README, etc.
+* Si no se te da bien el inglés o no sabes qué palabra usar para algo, puedes usar [Word Reference](http://www.wordreference.com) para buscarla o preguntar en el [Grupo de Telegram de Ruby en español](https://web.telegram.org/#/im?p=@Rubyists_es). 
