@@ -11,7 +11,7 @@ Pequeño projecto para el grupo de Telegram de Ruby.
 3. Una vez dentro de tu fork local, crea un nuevo branch de la siguiente forma:
    `git checkout -b 123456-nombre-del-branch`
    donde 123456 es el número de user story en [nuestro proyecto en Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2159200)
-   para la Feature que quieres implementar o el Bug que quieres arreglar.
+   para la [Feature que quieres implementar o el Bug que quieres arreglar](#pull-request-requirements).
 4. Si decidiste usar [TDD](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), ahora es el momento.
    Escribe tu código de tu feature o arregla el bug.
    
@@ -33,5 +33,5 @@ Pequeño projecto para el grupo de Telegram de Ruby.
 * Todo lo que vaya dentro de los archivos de código (.rb) incluidos nombres de clases, métodos, variables, módulos, etc. deben estar escritos en inglés, así como los nombres de esos archivos.
 * Pueden escribirse en español mensajes de commit, nombres de branches, contribuciones a este README, etc.
 * Si no se te da bien el inglés o no sabes qué palabra usar para algo, puedes usar [Word Reference](http://www.wordreference.com) para buscarla o preguntar en el [Grupo de Telegram de Ruby en español](https://web.telegram.org/#/im?p=@Rubyists_es).
-* Sólo se aceptarán Pull Requests para Features que estén en Pivotal tracker la columna Backlog o fixes para Bugs que estén en el [proyecto en Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2159200) (de ahí que se pide que los commits y branches incluyan el ID de ese item).
+* <a name="pull-request-requirements"></a>Sólo se aceptarán Pull Requests para Features que estén en Pivotal tracker la columna Backlog o fixes para Bugs que estén en el [proyecto en Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2159200) (de ahí que se pide que los commits y branches incluyan el ID de ese item).
 * Un Pull Request se aprobará cuando tenga thumbs up (manito arriba) de al menos 3 colaboradores.
