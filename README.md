@@ -1,5 +1,6 @@
 # picto_easy
 Pequeño projecto para el grupo de Telegram de Ruby.
+La aplicación es una galería de imágenes en la que los usuarios pueden registrarse, iniciar sesión y subir sus imágenes o votar las de los demás positiva o negativamente. Cada vez que se vota una imagen positivamente (upvote), su puntuación sube. Cada vez que se vota negativamente (downvote) esta baja. Las imágenes se muestran ordenadas según su puntuación de mayor a menos, dando así más visibilidad a las imágenes más votadas por la comunidad.
 
 ## Cómo colaborar en 7 pasos semi-fáciles.
 1. Haz fork de este repositorio en GitHub.
