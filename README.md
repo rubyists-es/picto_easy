@@ -8,7 +8,7 @@ La aplicación es una galería de imágenes en la que los usuarios pueden regist
 
 Las imágenes se muestran ordenadas según su puntuación de mayor a menos, dando así más visibilidad a las imágenes más votadas por la comunidad.
 
-Para elaborar respuestas HTTP, usamos [Cuba](https://github.com/soveran/cuba) y usamos [Dep](cyx.github.io/dep) para gestionar las dependencias.
+Para elaborar respuestas HTTP, usamos [Cuba](https://github.com/soveran/cuba) y usamos [Dep](https://cyx.github.io/dep) para gestionar las dependencias.
 
 ## Cómo colaborar en 7 pasos semi-fáciles.
 1. Haz fork de este repositorio en GitHub.
