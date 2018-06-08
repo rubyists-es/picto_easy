@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PictoEasy</title>
+   <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+
+</html>
