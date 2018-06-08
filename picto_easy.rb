@@ -1,19 +1,22 @@
-# cat hello_world.rb
-require "cuba"
-require "cuba/safe"
+require "cuba"                                                                                                                                          
+require "mote"                                                                                                                                          
+require "mote/render"
 
-Cuba.use Rack::Session::Cookie, :secret => "__a_very_long_string__"
+# Load plugins for Cuba                                                                                                                                 
+Cuba.plugin Mote::Render 
 
-Cuba.plugin Cuba::Safe
+# Require all model and controller files, including sub-directories.
+%w[models controllers].each do |folder|
+  Dir["./#{folder}/**/*.rb"].each { |file| require_relative file }
+end
 
+# Here's where main routing definitions are: the main Cuba app.
 Cuba.define do
-  on get do
-    on "hello" do
-      res.write "Hello world!"
-    end
+  on root do
+    res.redirect "pages/dashboard"
+  end
 
-    on root do
-      res.redirect "/hello"
-    end
+  on "pages" do
+    run PagesController
   end
 end
