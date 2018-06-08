@@ -11,6 +11,7 @@ Cuba.define do
     res.redirect "dashboard"
   end
 
-  on "dashboard" do
+  on "pages" do
+    run PagesController
   end
 end
