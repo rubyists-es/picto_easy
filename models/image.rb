@@ -1,0 +1,3 @@
+class Image
+  # Model code here...
+end

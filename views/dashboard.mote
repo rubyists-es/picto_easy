@@ -1,0 +1,10 @@
+<h1 class="main-title">PictoEasy</h1>
+
+<div class="sub-heading">
+  <p>Bienvenido a PictoEasy</p>
+  <p>¡Vota tus im&aacute;genes para que asciendan en el ranking!</p>
+</div>
+
+<footer>
+  Creado por <a href="https://github.com/rubyists-es">Ruby en Español</a>
+</footer>
