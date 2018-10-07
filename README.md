@@ -1,5 +1,5 @@
 # picto_easy
-Pequeño projecto para el grupo de Telegram de Ruby.
+Pequeño proyecto para el grupo de Telegram de Ruby.
 
 La aplicación es una galería de imágenes en la que los usuarios pueden registrarse, iniciar sesión y subir sus imágenes o votar las de los demás positiva o negativamente:
 
